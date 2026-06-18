@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Patitas · Comida Húmeda Natural para Perros',
+  title: 'Ultra K9 · Concentrado liofilizado para Perros',
   description:
-    'Comida húmeda premium para perros, elaborada con ingredientes naturales y reales. Nutrición que tu perro va a amar.',
+    'Concentrado liofilizado premium para perros, elaborada con ingredientes naturales y reales. Nutrición que tu perro va a amar.',
   generator: 'v0.app',
   icons: {
     icon: [
