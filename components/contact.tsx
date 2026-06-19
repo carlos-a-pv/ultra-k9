@@ -24,7 +24,7 @@ export function Contact() {
               alt="Dueño alimentando a su perro en casa"
               width={600}
               height={680}
-              className="h-full max-h-[560px] w-full object-cover"
+              className="h-auto max-h-[560px] w-full object-cover"
             />
           </div>
         </div>

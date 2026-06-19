@@ -19,7 +19,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
         <a href="#inicio" className="flex items-center gap-2">
-          <span className="flex size-9 items-center justify-center rounded-full">
+          <span className="flex size-12 items-center justify-center rounded-full">
             <img
               src="/logo.png"
               alt="Ultra K9"
@@ -35,7 +35,7 @@ export function SiteHeader() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-[18px] font-medium text-muted-foreground transition-colors hover:text-foreground hover:bg-accent/10 rounded-lg px-3 py-2"
             >
               {link.label}
             </a>
@@ -51,7 +51,7 @@ export function SiteHeader() {
         <button
           type="button"
           aria-label="Abrir menú"
-          className="flex size-10 items-center justify-center rounded-full text-foreground md:hidden"
+          className="flex size-12 items-center justify-center rounded-full text-foreground md:hidden"
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X className="size-5" /> : <Menu className="size-5" />}

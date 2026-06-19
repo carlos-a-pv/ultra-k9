@@ -63,8 +63,8 @@ export function Hero() {
               src="/dog.jpeg"
               alt="Perro feliz y saludable"
               width={540}
-              height={340}
-              className="h-full w-full object-cover"
+              height={200}
+              className="w-full h-135 object-cover"
               priority
             />
           </div>

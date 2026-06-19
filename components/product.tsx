@@ -22,7 +22,7 @@ export function Product() {
               alt="Tazón con comida húmeda natural para perros"
               width={640}
               height={640}
-              className="h-full w-full object-cover"
+              className="h-160 w-full object-cover"
               loading="eager"
             />
           </div>
