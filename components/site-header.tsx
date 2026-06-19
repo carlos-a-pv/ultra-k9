@@ -21,7 +21,7 @@ export function SiteHeader() {
         <a href="#inicio" className="flex items-center gap-2">
           <span className="flex size-12 items-center justify-center rounded-full">
             <img
-              src="/logo.png"
+              src="/logo.PNG"
               alt="Ultra K9"
               className="size-10 object-contain"
             />

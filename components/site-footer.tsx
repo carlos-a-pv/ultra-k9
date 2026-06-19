@@ -24,7 +24,7 @@ export function SiteFooter() {
             <a href="#inicio" className="flex items-center gap-2">
               <span className="flex size-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
                  <img
-                  src="/logo.png"
+                  src="/logo.PNG"
                   alt="Ultra K9"
                   className="size-10 object-contain"
                 />
